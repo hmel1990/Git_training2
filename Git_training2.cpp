@@ -16,18 +16,4 @@ int main()
         cout << ar[i] << ", ";
     }
     cout << "\n\n";
-
-    // Для ветки array_add
-
-    int x;
-    cin >> x;
-    int* dyn = new int[x];
-
-    for (int i = 0; i < x; i++)
-    {
-        dyn[i] = rand() % 100;
-        cout << dyn[i] << ", ";
-    }
-    cout << "\n\n";
-
 }
